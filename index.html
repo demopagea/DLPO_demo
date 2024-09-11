@@ -152,10 +152,9 @@ Experimental results show that our three stage training approach leads to improv
             <table>
                 <thead>
                     <tr>
-                        <th>Mixture</th>
-                        <th>Text Clue</th>
-                        <th>Estimate Target</th>
-                        <th>True Target</th>
+                        <th>Input Audio</th>
+                        <th>Reference Audio</th>
+                        <th>Output Audio</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -167,7 +166,10 @@ Experimental results show that our three stage training approach leads to improv
                             </audio>
                         </td>
                         <td>
-                            "With excitement in her nauseated tone, she speaks energetically with a high-pitched voice."
+                            <audio controls>
+                                <source src="audio/text_only_long/mix/test_mixed_speech_11_0.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                            </audio>
                         </td>
                         <td>
                             <audio controls>
@@ -175,12 +177,7 @@ Experimental results show that our three stage training approach leads to improv
                                 Your browser does not support the audio element.
                             </audio>
                         </td>
-                        <td>
-                            <audio controls>
-                                <source src="audio/text_only_long/true/005.wav" type="audio/wav">
-                                Your browser does not support the audio element.
-                            </audio>
-                        </td>
+                        
                     </tr>
                     <tr>
                         <td>
@@ -189,9 +186,7 @@ Experimental results show that our three stage training approach leads to improv
                                 Your browser does not support the audio element.
                             </audio>
                         </td>
-                        <td>
-                            "The man conveys his message energetically, speaking rapidly and with a low voice. "
-                        </td>
+                
                         <td>
                             <audio controls>
                                 <source src="audio/text_only_long/est/test_mixed_speech_68_0_est.wav" type="audio/wav">
@@ -211,9 +206,6 @@ Experimental results show that our three stage training approach leads to improv
                                 <source src="audio/text_only_long/mix/test_mixed_speech_7594_0.wav" type="audio/wav">
                                 Your browser does not support the audio element.
                             </audio>
-                        </td>
-                        <td>
-                            "The man addresses the audience with an ordinary pitch, talking at a regular speed with normal energy."
                         </td>
                         <td>
                             <audio controls>
