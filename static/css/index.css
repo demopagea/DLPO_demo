@@ -133,5 +133,21 @@ body {
   font-size: smaller;
 }
 
+.audio-table td {
+    padding: 20px; /* Adjust the padding value as needed */
+  }
+
+  /* Add margin around the audio elements */
+  audio {
+    margin: 10px; /* Adjust the margin value to increase spacing around audio */
+  }
+
+  /* Set the table layout to auto to allow column resizing */
+  .audio-table {
+    width: 100%;
+    border-collapse: separate; /* Allows for better spacing control between cells */
+    border-spacing: 15px; /* Adds space between columns */
+  }
+
 
 
